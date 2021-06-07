@@ -1,0 +1,31 @@
+{
+  "name": "block-cat/wellness-posts",
+  "description": "Change discussion view",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0.2"
+  },
+  "authors": [{
+    "name": "BlockCat"
+  }],
+  "autoload": {
+    "psr-4": {
+      "BlockCat\\WellnessPosts\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "BkC Postări",
+      "category": "other",
+      "icon": {
+        "name": "fas fa-sign",
+        "backgroundColor": "#083",
+        "color": "#fff"
+      }
+    }
+  }
+}
